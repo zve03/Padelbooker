@@ -18,12 +18,12 @@ namespace Padelbooker
             string veld = "~cf8106d5-a08b-404a-b999-adbcaa833432~";//olymp 4
 
 
-            string datum = "2024-06-10";
-            string uur = "T14%3A00%"; //2u erbij doen!
+            string datum = "2024-06-17";
+            string uur = "T09%3A00%"; //2u erbij doen!
             string duur = "~60";
             string fullUrl = baseUrl + locatie + veld + datum + uur + duur;
-
             return fullUrl;
+            //url was correct, maar er is iets mis met de site
 
         }
     }
