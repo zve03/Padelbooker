@@ -7,10 +7,7 @@ namespace Padelbooker
     {
         static void Main(string[] args)
         {
-
-            Navigation.PlaytomicWebsite();
-            // string x = UrlGeneration.DayNextWeek();
-
+            Navigation.BookAllFields();
 
         }
     }
