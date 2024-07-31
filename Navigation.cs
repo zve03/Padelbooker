@@ -10,9 +10,9 @@ namespace Padelbooker
     public class Navigation
     {
 
-        public static void WeekStartingIn3Days()
+        public static void WeekStartingInXDays(int delay)
         {
-            for (int i = 3; i < 10; i++)
+            for (int i = delay; i < 10; i++)
             {
                 BookAllFields(i, "18");
                 BookAllFields(i, "17");
