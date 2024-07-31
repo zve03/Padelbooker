@@ -9,13 +9,22 @@ namespace Padelbooker
 {
     public class Navigation
     {
-        public static void BookAllFields()
+
+        public static void WeekStartingIn3Days()
+        {
+            for (int i = 3; i < 10; i++)
+            {
+                BookAllFields(i, "18");
+                BookAllFields(i, "17");
+
+            }
+        }
+        public static void BookAllFields(int adddays, string hourminustwo)
         {
             IWebDriver driver = null;
             bool success = false;
             string statement = null;
-            int adddays = 14;
-            string hour = "18"; //+2 zomeruur
+            string hour = hourminustwo; //+2 zomeruur
             string minutes = "00";
             string duration = "90";
 

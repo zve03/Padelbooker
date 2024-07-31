@@ -7,7 +7,8 @@ namespace Padelbooker
     {
         static void Main(string[] args)
         {
-            Navigation.BookAllFields();
+            //Navigation.BookAllFields(14,"18");
+            Navigation.WeekStartingIn3Days();
 
         }
     }
